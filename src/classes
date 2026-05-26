@@ -1,1 +1,59 @@
+public class teste {
+   public static void main(String[] args) {
+
+
+       Pet cachorro = new Pet();
+
+
+       cachorro.nome = "Totó";
+       cachorro.raca = "caramelo";
+       cachorro.peso = 7.5;
+       cachorro.tamanho = 5;
+
+
+       Pet gato = new Pet();
+       gato.nome = "jojo";
+       gato.raca = "frajola";
+       gato.peso = 1.0;
+       gato.tamanho = 3;
+
+
+       cachorro.tomarBanho();
+       System.out.println(cachorro.exibirInfo());
+
+
+       System.out.println(gato.exibirInfo());
+   }
+}
+
+2 parte:
+
+public class teste {
+   public static void main(String[] args) {
+
+
+       Pet cachorro = new Pet();
+
+
+       cachorro.nome = "Totó";
+       cachorro.raca = "caramelo";
+       cachorro.peso = 7.5;
+       cachorro.tamanho = 5;
+
+
+       Pet gato = new Pet();
+       gato.nome = "jojo";
+       gato.raca = "frajola";
+       gato.peso = 1.0;
+       gato.tamanho = 3;
+
+
+       cachorro.tomarBanho();
+       System.out.println(cachorro.exibirInfo());
+
+
+       System.out.println(gato.exibirInfo());
+   }
+}
+
 
