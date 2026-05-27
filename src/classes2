@@ -1,0 +1,38 @@
+public class teste {
+public static void main(String[] args) {
+Pet cachorro = new Pet("Dog", "caramelo", 5.0, 7);
+
+cachorro.tomarBanho();
+System.out.println(cachorro.exibirInfo());
+}
+}
+
+15:23
+public class Pet {
+String nome;
+String raca;
+double peso;
+int tamanho;
+
+public Pet(){
+}
+public void tomarBanho(){
+System.out.println(nome + " tomou banho!");
+}
+
+public Pet(String nome, String raca, double peso, int tam){
+this.nome = nome;
+this.raca = raca;
+this.peso = peso;
+this.tamanho = tamanho;
+}
+
+public String exibirInfo(){
+return ">> Pet atentido: <<" +
+"\n nome: " + nome +
+"\n raça: " + raca +
+"\n tamanho: " + tamanho +
+"\n peso: " + peso;
+}
+}
+
